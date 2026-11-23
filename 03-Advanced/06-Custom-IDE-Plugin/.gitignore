@@ -1,0 +1,5 @@
+build/
+.cache/
+bin/
+plugins/*.dll
+plugins/*.so

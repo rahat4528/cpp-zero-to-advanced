@@ -1,0 +1,8 @@
+{
+  "name": "phonebook-with-database",
+  "version-string": "1.0.0",
+  "dependencies": [
+    "sqlite3",
+    "doctest"
+  ]
+}

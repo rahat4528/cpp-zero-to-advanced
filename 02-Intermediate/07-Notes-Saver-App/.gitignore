@@ -1,0 +1,8 @@
+build/
+bin/
+lib/
+*.exe
+*.o
+*.a
+*.db
+temp_*.md

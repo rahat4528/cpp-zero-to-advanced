@@ -1,0 +1,8 @@
+{
+  "name": "car-rental-system",
+  "version-string": "1.0.0",
+  "dependencies": [
+    "sqlite3",
+    "doctest"
+  ]
+}

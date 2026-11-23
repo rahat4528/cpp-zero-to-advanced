@@ -1,0 +1,5 @@
+build/
+.cache/
+bin/
+*.tmp
+*.exe

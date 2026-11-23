@@ -1,0 +1,33 @@
+# C++ and Computer Science Quiz Question Bank
+
+Q: What does RAII stand for in modern C++?
+A: Resource Allocation Is Instant
+B: Resource Acquisition Is Initialization
+C: Real-time Application Interface Implementation
+D: Random Access Iteration Index
+ANS: B
+EXP: RAII binds resource lifecycle to object lifetime, ensuring clean destructors.
+---
+Q: Which smart pointer should be preferred for exclusive heap ownership?
+A: std::shared_ptr
+B: std::weak_ptr
+C: std::unique_ptr
+D: std::auto_ptr
+ANS: C
+EXP: std::unique_ptr provides zero-overhead exclusive ownership without reference counting.
+---
+Q: Which standard library header provides std::mt19937?
+A: <cstdlib>
+B: <random>
+C: <chrono>
+D: <algorithm>
+ANS: B
+EXP: The <random> header introduces modern pseudo-random engines and distributions.
+---
+Q: What is the time complexity of looking up a key in a std::unordered_map on average?
+A: O(log N)
+B: O(N)
+C: O(1)
+D: O(N^2)
+ANS: C
+EXP: Hash tables provide average O(1) constant time lookups.

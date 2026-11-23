@@ -1,0 +1,11 @@
+# Sample Quote Repository (Format: Text|Author|Category)
+There are only two kinds of languages: the ones people complain about and the ones nobody uses.|Bjarne Stroustrup|Technology
+Simplicity is prerequisite for reliability.|Edsger W. Dijkstra|Technology
+Premature optimization is the root of all evil.|Donald Knuth|Technology
+Talk is cheap. Show me the code.|Linus Torvalds|Technology
+The only way to do great work is to love what you do.|Steve Jobs|Inspiration
+In the middle of difficulty lies opportunity.|Albert Einstein|Inspiration
+It does not matter how slowly you go as long as you do not stop.|Confucius|Wisdom
+Knowledge is power.|Francis Bacon|Wisdom
+The unexamined life is not worth living.|Socrates|Philosophy
+Debugging is twice as hard as writing the code in the first place.|Brian W. Kernighan|Technology

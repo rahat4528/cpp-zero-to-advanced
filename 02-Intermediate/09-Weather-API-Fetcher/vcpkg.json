@@ -1,0 +1,9 @@
+{
+  "name": "weather-api-fetcher",
+  "version-string": "1.0.0",
+  "dependencies": [
+    "curl",
+    "nlohmann-json",
+    "doctest"
+  ]
+}
