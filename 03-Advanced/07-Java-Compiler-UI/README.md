@@ -49,7 +49,12 @@ Raw compiler diagnostics emitted across heterogeneous compilers (GCC, Clang, MSV
     └── ARCHITECTURE.md
 ```
 
-## 7. Build and Run
+## 7. Prerequisites
+- GCC 11+, Clang 14+, or MSVC 2022 supporting C++17.
+- CMake 3.20+.
+- Ninja or Make.
+
+## 8. Build and Run
 
 ### Build
 ```bash
@@ -62,12 +67,12 @@ cmake --build build
 ./build/CppCompilerUI --test-run
 ```
 
-## 8. Testing Instructions
+## 9. Testing Instructions
 ```bash
 ctest --test-dir build --output-on-failure
 ```
 
-## 9. Output Demo
+## 10. Output Demo
 ```text
 =========================================================
        C PLUS PLUS COMPILER TOOLCHAIN UI & RUNNER        
@@ -84,11 +89,11 @@ Diagnostics Detected  : 2
 [Test-Run Mode] Executed successfully.
 ```
 
-## 10. Known Limitations
+## 11. Known Limitations
 - When driving real external toolchains, the chosen compiler executable must be present in the system `PATH`.
 - Simulation mode provides verified test coverage when native compilers are absent.
 
-## 11. Testing Status
+## 12. Testing Status
 - **Built**: Yes, compiled with GCC 16.1.0 and CMake with zero warnings under `-Wall -Wextra -Wpedantic`.
 - **Run**: Verified via `./build/CppCompilerUI --test-run`.
 - **Tested**: 3 comprehensive test suites passing under CTest.
